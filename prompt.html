@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images in HTML</title>
+</head>
+<body>
+    <h1>Images in HTML</h1>
+    
+    <!-- Image displayed using the 'img' tag with 'src' attribute -->
+    <h2>Using the 'img' tag:</h2>
+    <img src="https://via.placeholder.com/150" alt="Placeholder Image" width="150" height="150">
+    
+    <!-- Image displayed as a background using CSS -->
+    <h2>Using CSS background:</h2>
+    <div style="width: 150px; height: 150px; background-image: url('https://via.placeholder.com/150'); background-size: cover;"></div>
+
+    <!-- Image as a link using 'a' tag with 'img' inside -->
+    <h2>Image as a link:</h2>
+    <a href="https://via.placeholder.com/150">
+        <img src="https://via.placeholder.com/150" alt="Placeholder Image" width="150" height="150">
+    </a>
+
+    <!-- Image embedded using 'object' tag -->
+    <h2>Using the 'object' tag:</h2>
+    <object data="https://via.placeholder.com/150" type="image/png" width="150" height="150">
+        <img src="https://via.placeholder.com/150" alt="Placeholder Image" width="150" height="150">
+    </object>
+</body>
+</html>
